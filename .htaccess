@@ -1,0 +1,5 @@
+#! Redirect all requests to public directory
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ public/$1
+</IfModule>

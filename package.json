@@ -1,0 +1,33 @@
+{
+    "name": "cultural-5",
+    "version": "1.0.0",
+    "description": "WordPress theme created by somasocial.com for cultural5.ro",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gulp build",
+        "watch": "gulp watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/soma-social/cultural-5.git"
+    },
+    "author": "kos (somasocial.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/soma-social/cultural-5/issues"
+    },
+    "homepage": "https://github.com/soma-social/cultural-5#readme",
+    "dependencies": {
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.0",
+        "gulp-cli": "^2.2.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5"
+    },
+    "keywords": [
+        "somasocial.com",
+        "cultural-5"
+    ]
+}
